@@ -12,11 +12,16 @@ This script will allow users to generate secure random passwords in different le
 clone the respository:
 
 > git clone https://github.com/cybereagle2001/passgen.git
+
 > cd passgen
 
 run the script:
 >python3 passgen.py
+### Tutorial
 
+youtube : https://youtu.be/nWAlxeGbKfA
+
+instagram : https://www.instagram.com/p/CTNipgyi2AB/
 ### Licence
 
 [MIT](https://choosealicense.com/licenses/mit/) ©Passgen.
