@@ -17,7 +17,7 @@ clone the respository:
 > cd passgen
 
 run the script:
->python3 passgen.py
+>python3 passgenV3.py
 ### Tutorial
 
 youtube : https://youtu.be/nWAlxeGbKfA
