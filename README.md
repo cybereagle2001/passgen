@@ -8,6 +8,8 @@
 
 This script will allow users to generate secure random passwords in different lengths it depends on the choice of the user. A password created by this generator using only 8 characters can be cracked after 9 years 6 months 2 weeks and 4 days since the hacker started the attack.
 
+For this version I added the fact that Passgen will have the ability to generate an output of the generated password in password.txt
+
 ### How To install Passgen
 
 clone the respository:
