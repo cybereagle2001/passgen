@@ -1,4 +1,4 @@
- <a target="_blank" href="OS" title="OS"><img src="https://img.shields.io/static/v1?label=Version&message=V0.3&color=blue"></a>
+ <a target="_blank" href="OS" title="OS"><img src="https://img.shields.io/static/v1?label=Version&message=V0.4&color=blue"></a>
   <a target="_blank" href="Language" title="Language"><img src="https://img.shields.io/badge/language-python 3+-GREEN"></a>
     <a target="_blank" href="OS" title="OS"><img src="https://img.shields.io/static/v1?label=OS&message=linux&color=red"></a>
    <a target="_blank" href="OS" title="OS"><img src="https://img.shields.io/static/v1?label=OS&message=Windows&color=red"></a>
