@@ -20,6 +20,8 @@ def verif(n):
         print("the minimum length for a secure password is 8 caracters!!\n")
         n= int(input("write the length of your password:"))
         verif(n)
+    else:
+        main()
     
 banner()
 n=int(input("write the length of your password: "))
