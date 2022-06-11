@@ -13,14 +13,17 @@ def banner():
     print("| .__/ \__,_|___/___/\__, |\___|_| |_|")
     print("|_|                  |___/cybereagle2001 ")
     print("\033[1;37m")
-
+def verif(n):
+    if (n < 10):
+        os.system("clear")
+        banner()
+        print("the minimum length for a secure password is 8 caracters!!\n")
+        n= int(input("write the length of your password:"))
+        verif(n)
+    
 banner()
 n=int(input("write the length of your password: "))
-if (n < 8):
-    os.system("clear")
-    banner()
-    print("the minimum length for a secure password is 8 caracters!!\n")
-    n= int(input("write the length of your password:"))
+verif(n)
 for c in range(100):
     password=''
     for loop in range(n):
