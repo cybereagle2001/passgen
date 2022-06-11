@@ -5,6 +5,7 @@ import os
 from time import sleep
 
 char="abcdefjhigklmnopqrstuvwxyz ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789/*-.!%:;,.?µ=+}])°[({'#~&0123456789"
+
 def banner():
     print("@AllRightReserved to cybereagle2001")
     print("\033[1;34m  _ __   __ _ ___ ___  __ _  ___ _ __")
@@ -13,19 +14,7 @@ def banner():
     print("| .__/ \__,_|___/___/\__, |\___|_| |_|")
     print("|_|                  |___/cybereagle2001 ")
     print("\033[1;37m")
-def verif(n):
-    if (n < 10):
-        os.system("clear")
-        banner()
-        print("the minimum length for a secure password is 8 caracters!!\n")
-        n= int(input("write the length of your password:"))
-        verif(n)
-    else:
-        main()
     
-banner()
-n=int(input("write the length of your password: "))
-verif(n)
 def main():
     for c in range(100):
         password=''
@@ -39,3 +28,18 @@ def main():
 
     print("")
     print("\033[1;31mStay Secure with cybereagle2001 random passwords!!")
+    
+def verif(n):
+    if (n < 10):
+        os.system("clear")
+        banner()
+        print("the minimum length for a secure password is 8 caracters!!\n")
+        n= int(input("write the length of your password:"))
+        verif(n)
+    else:
+        main()
+    
+banner()
+n=int(input("write the length of your password: "))
+verif(n)
+
