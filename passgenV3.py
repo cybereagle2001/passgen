@@ -33,7 +33,7 @@ def verif(n):
     if (n < 10):
         os.system("clear")
         banner()
-        print("the minimum length for a secure password is 8 caracters!!\n")
+        print("the minimum length for a secure password is 10 caracters!!\n")
         n= int(input("write the length of your password:"))
         verif(n)
     else:
