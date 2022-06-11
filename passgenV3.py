@@ -1,6 +1,7 @@
 #coded by cybereagle2001
 
 import random
+import os
 from time import sleep
 
 char="abcdefjhigklmnopqrstuvwxyz ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789/*-.!%:;,.?µ=+}])°[({'#~&0123456789"
