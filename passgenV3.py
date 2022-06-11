@@ -18,7 +18,7 @@ def banner():
 def main():
     for c in range(100):
         password=''
-        for loop in range(n):
+        for loop in range(n+1):
             password += random.choice(char)
         file = open("password.txt","a")
         file.write(password+"\n")
